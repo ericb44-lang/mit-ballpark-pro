@@ -188,33 +188,14 @@
             margin-top: 10px;
         }
 
-        .btn:active {
-            transform: scale(0.98);
-        }
+        .btn:active { transform: scale(0.98); }
 
-        .btn:hover {
-            box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
-        }
+        .btn:hover { box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3); }
 
-        .btn-secondary {
-            background: linear-gradient(90deg, #000000 0%, #d4af37 100%);
-            color: white;
-            border: none;
-        }
-
-        .btn-secondary:hover {
-            box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
-        }
-
-        .btn-danger {
-            background: linear-gradient(90deg, #000000 0%, #d4af37 100%);
-            color: white;
-        }
-
-        .btn-success {
-            background: linear-gradient(90deg, #000000 0%, #d4af37 100%);
-            color: white;
-        }
+        .btn-secondary { background: linear-gradient(90deg, #000000 0%, #d4af37 100%); color: white; border: none; }
+        .btn-secondary:hover { box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3); }
+        .btn-danger { background: linear-gradient(90deg, #000000 0%, #d4af37 100%); color: white; }
+        .btn-success { background: linear-gradient(90deg, #000000 0%, #d4af37 100%); color: white; }
 
         .btn-small {
             padding: 8px 16px;
@@ -240,11 +221,7 @@
             margin-bottom: 10px;
         }
 
-        .line-item-title {
-            font-weight: 600;
-            color: #d4af37;
-            font-size: 15px;
-        }
+        .line-item-title { font-weight: 600; color: #d4af37; font-size: 15px; }
 
         .line-item-delete {
             background: linear-gradient(90deg, #000000 0%, #d4af37 100%);
@@ -283,10 +260,7 @@
             margin-bottom: 10px;
         }
 
-        .pricing-item input {
-            padding: 8px 10px;
-            font-size: 14px;
-        }
+        .pricing-item input { padding: 8px 10px; font-size: 14px; }
 
         .estimate-summary {
             background: #2a2a2a;
@@ -310,28 +284,10 @@
             border-top: 2px solid #d4af37;
         }
 
-        .summary-label {
-            font-size: 14px;
-            color: #999;
-        }
-
-        .summary-value {
-            font-size: 14px;
-            font-weight: 600;
-            color: #d4af37;
-        }
-
-        .total-label {
-            font-size: 18px;
-            font-weight: 700;
-            color: #d4af37;
-        }
-
-        .total-value {
-            font-size: 24px;
-            font-weight: 700;
-            color: #d4af37;
-        }
+        .summary-label { font-size: 14px; color: #999; }
+        .summary-value { font-size: 14px; font-weight: 600; color: #d4af37; }
+        .total-label { font-size: 18px; font-weight: 700; color: #d4af37; }
+        .total-value { font-size: 24px; font-weight: 700; color: #d4af37; }
 
         .toast {
             position: fixed;
@@ -353,34 +309,22 @@
         }
 
         @keyframes toastIn {
-            from {
-                opacity: 0;
-                transform: translateX(-50%) translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(-50%) translateY(0);
-            }
+            from { opacity: 0; transform: translateX(-50%) translateY(20px); }
+            to   { opacity: 1; transform: translateX(-50%) translateY(0); }
         }
 
         .modal {
             display: none;
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
             background: rgba(0,0,0,0.5);
             z-index: 2000;
             overflow-y: auto;
             padding: 20px;
         }
 
-        .modal.show {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+        .modal.show { display: flex; align-items: center; justify-content: center; }
 
         .modal-content {
             background: #1a1a1a;
@@ -395,14 +339,8 @@
         }
 
         @keyframes modalSlideIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(-20px); }
+            to   { opacity: 1; transform: translateY(0); }
         }
 
         .modal-header {
@@ -414,10 +352,7 @@
             background: #2a2a2a;
         }
 
-        .modal-header h2 {
-            font-size: 20px;
-            color: #d4af37;
-        }
+        .modal-header h2 { font-size: 20px; color: #d4af37; }
 
         .modal-close {
             background: none;
@@ -430,9 +365,7 @@
             height: 30px;
         }
 
-        .modal-body {
-            padding: 20px;
-        }
+        .modal-body { padding: 20px; }
 
         .document-preview {
             background: white;
@@ -446,16 +379,8 @@
             margin-bottom: 15px;
         }
 
-        .empty-state {
-            text-align: center;
-            padding: 40px 20px;
-            color: #999;
-        }
-
-        .empty-state-icon {
-            font-size: 48px;
-            margin-bottom: 15px;
-        }
+        .empty-state { text-align: center; padding: 40px 20px; color: #999; }
+        .empty-state-icon { font-size: 48px; margin-bottom: 15px; }
 
         .badge {
             display: inline-block;
@@ -466,33 +391,30 @@
             margin-left: 8px;
         }
 
-        .badge-unit {
-            background: #fff9e6;
-            color: #d4af37;
-        }
+        .badge-unit { background: #fff9e6; color: #d4af37; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>💧 MIT Ballpark Pro</h1>
-            <p>Mitigation estimates & equipment tracking</p>
+            <h1>&#128167; MIT Ballpark Pro</h1>
+            <p>Mitigation estimates &amp; equipment tracking</p>
         </div>
 
         <div class="tabs">
             <button class="tab active" onclick="switchTab('estimate')">New Estimate</button>
             <button class="tab" onclick="switchTab('pricing')">Pricing Database</button>
-            <button class="settings-gear" onclick="openSettings()" title="Settings">⚙️</button>
+            <button class="settings-gear" onclick="openSettings()" title="Settings">&#9881;&#65039;</button>
         </div>
 
         <!-- ESTIMATE TAB -->
         <div id="estimateTab" class="tab-content active">
             <div class="section">
-                <div style="background: #2a2a2a; padding: 15px; border-radius: 10px; font-size: 13px; color: #d4af37; margin-bottom: 20px; border: 1px solid #d4af37;">
-                    ⚠️ <strong>Important:</strong> This is a Rough Order of Magnitude (ROM) estimate provided for preliminary budgeting only. It is a general ballpark range based on limited information and is not a finalized scope or binding proposal. Actual costs may vary based on site inspection, confirmed scope, and conditions discovered during mitigation.
+                <div style="background:#2a2a2a;padding:15px;border-radius:10px;font-size:13px;color:#d4af37;margin-bottom:20px;border:1px solid #d4af37;">
+                    &#9888;&#65039; <strong>Important:</strong> This is a Rough Order of Magnitude (ROM) estimate provided for preliminary budgeting only. It is a general ballpark range based on limited information and is not a finalized scope or binding proposal. Actual costs may vary based on site inspection, confirmed scope, and conditions discovered during mitigation.
                 </div>
             </div>
-            
+
             <div class="section">
                 <div class="section-title">Project Information</div>
                 <div class="input-wrapper">
@@ -510,13 +432,13 @@
             </div>
 
             <div class="section">
-                <div class="section-title">Dryout Duration & Equipment</div>
+                <div class="section-title">Dryout Duration &amp; Equipment</div>
                 <div class="input-wrapper">
                     <label for="dryoutDays">Estimated Dryout Duration (Days)</label>
                     <input type="number" id="dryoutDays" min="1" value="3" onchange="updateSummary()" placeholder="e.g., 3">
                 </div>
-                <div style="background: #2a2a2a; padding: 12px; border-radius: 8px; font-size: 13px; color: #d4af37; margin-top: 10px; border: 1px solid #333;">
-                    💡 <strong>How it works:</strong> Equipment items (Air Movers, Dehumidifiers, Air Scrubbers) will be multiplied by the number of dryout days for the total equipment cost.
+                <div style="background:#2a2a2a;padding:12px;border-radius:8px;font-size:13px;color:#d4af37;margin-top:10px;border:1px solid #333;">
+                    &#128161; <strong>How it works:</strong> Equipment items (Air Movers, Dehumidifiers, Air Scrubbers) will be multiplied by the number of dryout days for the total equipment cost.
                 </div>
             </div>
 
@@ -524,9 +446,7 @@
                 <div class="section-title">Add Equipment (Multiplied by Dryout Days)</div>
                 <div class="input-wrapper">
                     <label for="equipmentSelect">Select Equipment</label>
-                    <select id="equipmentSelect">
-                        <option value="">Select equipment...</option>
-                    </select>
+                    <select id="equipmentSelect"><option value="">Select equipment...</option></select>
                 </div>
                 <div class="input-group">
                     <div>
@@ -535,11 +455,11 @@
                     </div>
                     <div>
                         <label>Daily Rate</label>
-                        <input type="text" id="equipmentRate" readonly style="background: #2a2a2a; border: 2px solid #333;">
+                        <input type="text" id="equipmentRate" readonly style="background:#2a2a2a;border:2px solid #333;">
                     </div>
                 </div>
-                <div style="background: #2a2a2a; padding: 10px; border-radius: 8px; font-size: 12px; color: #999; margin-top: 10px; border: 1px solid #333;">
-                    💡 Equipment will be automatically multiplied by dryout days
+                <div style="background:#2a2a2a;padding:10px;border-radius:8px;font-size:12px;color:#999;margin-top:10px;border:1px solid #333;">
+                    &#128161; Equipment will be automatically multiplied by dryout days
                 </div>
                 <button class="btn" onclick="addEquipmentItem()">+ Add Equipment</button>
             </div>
@@ -548,9 +468,7 @@
                 <div class="section-title">Add Labor/Material (One-Time Costs)</div>
                 <div class="input-wrapper">
                     <label for="materialSelect">Labor/Material</label>
-                    <select id="materialSelect">
-                        <option value="">Select labor or material...</option>
-                    </select>
+                    <select id="materialSelect"><option value="">Select labor or material...</option></select>
                 </div>
                 <div class="input-group">
                     <div>
@@ -559,18 +477,18 @@
                     </div>
                     <div>
                         <label>Unit Price</label>
-                        <input type="text" id="unitPrice" readonly style="background: #2a2a2a; border: 2px solid #333;">
+                        <input type="text" id="unitPrice" readonly style="background:#2a2a2a;border:2px solid #333;">
                     </div>
                 </div>
                 <button class="btn" onclick="addLineItem()">+ Add Line Item</button>
             </div>
 
-            <div class="section" id="lineItemsSection" style="display: none;">
+            <div class="section" id="lineItemsSection" style="display:none;">
                 <div class="section-title">Line Items</div>
                 <div id="lineItemsList"></div>
             </div>
 
-            <div id="estimateSummary" style="display: none;">
+            <div id="estimateSummary" style="display:none;">
                 <div class="estimate-summary">
                     <div class="summary-row">
                         <span class="summary-label">Line Items Subtotal:</span>
@@ -585,9 +503,9 @@
                         <span class="total-value" id="grandTotal">$0.00</span>
                     </div>
                 </div>
-                <button class="btn btn-secondary" onclick="showDocumentModal('changeorder')">📄 Create Estimate Document</button>
-                <button class="btn" onclick="saveCurrentEstimate()">💾 Save This Estimate</button>
-                <button class="btn btn-secondary" onclick="createNewEstimate()">📝 Create New Estimate</button>
+                <button class="btn btn-secondary" onclick="showDocumentModal('estimate')">&#128196; Create Estimate Document</button>
+                <button class="btn" onclick="saveCurrentEstimate()">&#128190; Save This Estimate</button>
+                <button class="btn btn-secondary" onclick="createNewEstimate()">&#128221; Create New Estimate</button>
             </div>
         </div>
 
@@ -596,9 +514,8 @@
             <div class="section">
                 <div class="section-title">Manage Pricing</div>
                 <button class="btn" onclick="addPricingItem()">+ Add New Item</button>
-                <button class="btn btn-secondary" onclick="viewSavedEstimates()">📁 View Saved Estimates</button>
+                <button class="btn btn-secondary" onclick="viewSavedEstimates()">&#128193; View Saved Estimates</button>
             </div>
-
             <div class="section">
                 <div id="pricingList"></div>
             </div>
@@ -614,9 +531,9 @@
             </div>
             <div class="modal-body">
                 <div id="documentPreview" class="document-preview"></div>
-                <button class="btn btn-success" onclick="downloadPDF()">📥 Download PDF</button>
-                <button class="btn" onclick="copyDocument()">📋 Copy to Clipboard</button>
-                <button class="btn btn-secondary" onclick="shareDocument()">📤 Share</button>
+                <button class="btn btn-success" onclick="downloadPDF()">&#128229; Download PDF</button>
+                <button class="btn" onclick="copyDocument()">&#128203; Copy to Clipboard</button>
+                <button class="btn btn-secondary" onclick="shareDocument()">&#128228; Share</button>
             </div>
         </div>
     </div>
@@ -625,7 +542,7 @@
     <div id="settingsModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2>⚙️ Settings</h2>
+                <h2>&#9881;&#65039; Settings</h2>
                 <button class="modal-close" onclick="closeSettings()">&times;</button>
             </div>
             <div class="modal-body">
@@ -633,19 +550,18 @@
                     <div class="section-title">Company Logo</div>
                     <div class="input-wrapper">
                         <label for="logoUpload">Upload Company Logo</label>
-                        <input type="file" id="logoUpload" accept="image/*" onchange="handleLogoUpload(event)" style="padding: 10px;">
+                        <input type="file" id="logoUpload" accept="image/*" onchange="handleLogoUpload(event)" style="padding:10px;">
                     </div>
-                    <div id="logoPreview" style="display: none; margin-top: 15px; text-align: center;">
-                        <img id="logoImage" style="max-width: 200px; max-height: 100px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 10px; background: white;">
-                        <div style="margin-top: 10px;">
+                    <div id="logoPreview" style="display:none;margin-top:15px;text-align:center;">
+                        <img id="logoImage" style="max-width:200px;max-height:100px;border:2px solid #e0e0e0;border-radius:10px;padding:10px;background:white;">
+                        <div style="margin-top:10px;">
                             <button class="btn btn-danger btn-small" onclick="removeLogo()">Remove Logo</button>
                         </div>
                     </div>
-                    <div style="background: #fff9e6; padding: 12px; border-radius: 8px; font-size: 13px; color: #666; margin-top: 10px;">
-                        💡 <strong>Tip:</strong> Your logo will appear on all work orders and change orders. For best results, use a transparent PNG file.
+                    <div style="background:#fff9e6;padding:12px;border-radius:8px;font-size:13px;color:#666;margin-top:10px;">
+                        &#128161; <strong>Tip:</strong> Your logo will appear on all estimates. For best results, use a transparent PNG file.
                     </div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">Company Information</div>
                     <div class="input-wrapper">
@@ -661,7 +577,6 @@
                         <input type="tel" id="companyPhone" placeholder="e.g., (555) 123-4567" onchange="saveSettings()">
                     </div>
                 </div>
-
                 <div class="section">
                     <div class="section-title">Project Manager Information</div>
                     <div class="input-wrapper">
@@ -676,13 +591,12 @@
                         <label for="pmEmail">Project Manager Email</label>
                         <input type="email" id="pmEmail" placeholder="e.g., jsmith@company.com" onchange="saveSettings()">
                     </div>
-                    <div style="background: #fff9e6; padding: 12px; border-radius: 8px; font-size: 13px; color: #666; margin-top: 10px;">
-                        💡 <strong>How it works:</strong> This information will automatically appear on all work orders and change orders you generate, saving you time on every estimate.
+                    <div style="background:#fff9e6;padding:12px;border-radius:8px;font-size:13px;color:#666;margin-top:10px;">
+                        &#128161; <strong>How it works:</strong> This information will automatically appear on all estimates you generate.
                     </div>
                 </div>
-
                 <div class="section">
-                    <button class="btn btn-success" onclick="saveSettingsAndClose()">💾 Save Settings</button>
+                    <button class="btn btn-success" onclick="saveSettingsAndClose()">&#128190; Save Settings</button>
                 </div>
             </div>
         </div>
@@ -692,7 +606,7 @@
     <div id="savedEstimatesModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2>📁 Saved Estimates</h2>
+                <h2>&#128193; Saved Estimates</h2>
                 <button class="modal-close" onclick="closeSavedEstimates()">&times;</button>
             </div>
             <div class="modal-body">
@@ -704,127 +618,101 @@
     <div id="toast" class="toast">Action completed!</div>
 
     <script>
-        // Default pricing database - Mitigation items
+        // ─── PRICING DATABASE ───────────────────────────────────────────────────────
+        // Proprietary descriptions — updated pricing (+11.32%)
         let pricingDatabase = [
-            // Equipment (daily rental rates)
-            { id: 1, name: 'WTR-DRY - Air Mover (daily)', unit: 'each', price: 26.58 },
-            { id: 2, name: 'WTR-DHM - Dehumidifier (daily)', unit: 'each', price: 77.00 },
-            { id: 3, name: 'WTR-NAFAN - Air Scrubber (daily)', unit: 'each', price: 75.34 },
-            { id: 4, name: 'WTR-EQ - Drying Monitoring', unit: 'day', price: 64.81 },
-            
-            // Services & Labor
-            { id: 5, name: 'WTR-EXT - Water Extraction', unit: 'sq ft', price: 0.55 },
-            { id: 6, name: 'WTR-DRYW - Drywall Removal', unit: 'sq ft', price: 1.16 },
-            { id: 7, name: 'WTR-DRYWLF - Flood Cut Drywall', unit: 'lin ft', price: 4.22 },
-            { id: 8, name: 'WTR-INS - Insulation Removal', unit: 'sq ft', price: 1.22 },
-            { id: 9, name: 'WTR-GRMB - Antimicrobial Spray', unit: 'sq ft', price: 0.32 },
-            { id: 10, name: 'WTR-PAD - Carpet Pad Removal', unit: 'sq ft', price: 0.66 },
-            { id: 11, name: 'WTR-LIFT - Lift Carpet for Drying', unit: 'sq ft', price: 0.46 },
-            { id: 12, name: 'WTR-BARR - Containment Barrier', unit: 'sq ft', price: 1.03 },
-            { id: 13, name: 'WTR-BARRZ - Containment Zipper', unit: 'each', price: 16.91 },
-            { id: 14, name: 'HMR-ASBT - Asbestos Test Fee', unit: 'each', price: 315.00 },
-            { id: 15, name: 'HMR-ASBTPS - Asbestos Test per Sample', unit: 'each', price: 50.00 },
-            { id: 16, name: 'WTR-BASE - Detach Baseboard', unit: 'lin ft', price: 0.60 },
-            { id: 17, name: 'WTR-HEPAVAS - HEPA Vac Detailed', unit: 'sq ft', price: 0.79 },
-            { id: 18, name: 'PNT-MASKSFC - Floor Protection', unit: 'sq ft', price: 0.78 },
-            { id: 19, name: 'WTR-PPE+ - Personal Protective Equipment', unit: 'each', price: 39.81 },
-            { id: 20, name: 'DMO-PU - Haul Debris per Truck Load', unit: 'each', price: 127.89 }
+            // Equipment (daily rental — multiplied by dryout days)
+            { id:  1, name: 'Air Mover \u2013 Equipment Rental (per day)',        unit: 'each',   price:  29.59 },
+            { id:  2, name: 'Dehumidifier \u2013 Equipment Rental (per day)',     unit: 'each',   price:  85.72 },
+            { id:  3, name: 'Negative Air / Air Scrubber \u2013 Daily Rental',    unit: 'each',   price:  83.87 },
+            { id:  4, name: 'Drying Progress Monitoring',                         unit: 'day',    price:  72.15 },
+
+            // Services & Labor (one-time costs)
+            { id:  5, name: 'Standing Water Removal',                             unit: 'sq ft',  price:   0.61 },
+            { id:  6, name: 'Drywall Demolition & Removal',                       unit: 'sq ft',  price:   1.29 },
+            { id:  7, name: 'Flood-Line Drywall Cut & Removal',                   unit: 'lin ft', price:   4.70 },
+            { id:  8, name: 'Batt Insulation Removal',                            unit: 'sq ft',  price:   1.36 },
+            { id:  9, name: 'Antimicrobial Treatment Application',                unit: 'sq ft',  price:   0.36 },
+            { id: 10, name: 'Carpet Pad Removal & Disposal',                      unit: 'sq ft',  price:   0.73 },
+            { id: 11, name: 'Carpet Lift for Sub-Floor Drying',                   unit: 'sq ft',  price:   0.51 },
+            { id: 12, name: 'Containment Barrier Installation',                   unit: 'sq ft',  price:   1.15 },
+            { id: 13, name: 'Containment Zipper Access Panel',                    unit: 'each',   price:  18.82 },
+            { id: 14, name: 'Asbestos Sampling & Lab Fee',                        unit: 'each',   price: 350.68 },
+            { id: 15, name: 'Asbestos Test Panel \u2013 Rush Processing',         unit: 'each',   price:  55.66 },
+            { id: 16, name: 'Baseboard Detach for Drying Access',                 unit: 'lin ft', price:   0.67 },
+            { id: 17, name: 'HEPA Vacuum \u2013 Detailed Surface Cleaning',       unit: 'sq ft',  price:   0.88 },
+            { id: 18, name: 'Floor Surface Protection',                           unit: 'sq ft',  price:   0.87 },
+            { id: 19, name: 'Personal Protective Equipment Package',              unit: 'each',   price:  44.32 },
+            { id: 20, name: 'Debris Haul-Away per Truck Load',                    unit: 'each',   price: 142.37 }
         ];
 
-        let lineItems = [];
-        let nextId = pricingDatabase.length + 1;
-        let savedEstimates = [];
-        let companySettings = {
-            logo: null,
-            companyName: '',
-            companyAddress: '',
-            companyPhone: '',
-            pmName: '',
-            pmPhone: '',
-            pmEmail: ''
-        };
+        let lineItems       = [];
+        let nextId          = pricingDatabase.length + 1;
+        let savedEstimates  = [];
+        let companySettings = { logo: null, companyName: '', companyAddress: '', companyPhone: '', pmName: '', pmPhone: '', pmEmail: '' };
 
-        // Helper function to check if item is equipment
+        // ─── EQUIPMENT DETECTION ────────────────────────────────────────────────────
+        // Matches by name keywords (codes have been removed from descriptions)
         function isEquipmentItem(itemName) {
-            const equipmentCodes = ['WTR-DRY ', 'WTR-DHM', 'WTR-NAFAN', 'WTR-EQ'];
-            const upperName = itemName.toUpperCase();
-            // Check for exact match with space after WTR-DRY to avoid matching WTR-DRYW/WTR-DRYWLF
-            // For others, just check if it starts with the code
-            return equipmentCodes.some(code => {
-                if (code === 'WTR-DRY ') {
-                    return upperName.startsWith('WTR-DRY ') || upperName === 'WTR-DRY';
-                }
-                return upperName.startsWith(code);
-            });
+            const keywords = ['Air Mover', 'Dehumidifier', 'Negative Air', 'Air Scrubber', 'Drying Progress Monitoring'];
+            return keywords.some(kw => itemName.includes(kw));
         }
 
-        // Load from localStorage if available
+        // ─── DATA PERSISTENCE ───────────────────────────────────────────────────────
         function loadData() {
             const saved = localStorage.getItem('pricingDatabase');
             if (saved) {
                 pricingDatabase = JSON.parse(saved);
-                nextId = Math.max(...pricingDatabase.map(item => item.id)) + 1;
+                nextId = Math.max(...pricingDatabase.map(i => i.id)) + 1;
             }
-            
             const savedSettings = localStorage.getItem('companySettings');
-            if (savedSettings) {
-                companySettings = JSON.parse(savedSettings);
-                loadSettingsToForm();
-            }
-            
+            if (savedSettings) { companySettings = JSON.parse(savedSettings); loadSettingsToForm(); }
             const savedEstimatesData = localStorage.getItem('savedEstimates');
-            if (savedEstimatesData) {
-                savedEstimates = JSON.parse(savedEstimatesData);
-            }
-            
+            if (savedEstimatesData) { savedEstimates = JSON.parse(savedEstimatesData); }
             updateMaterialSelect();
             renderPricingList();
         }
 
-        // Load settings into form
+        function saveData() { localStorage.setItem('pricingDatabase', JSON.stringify(pricingDatabase)); }
+
+        // ─── SETTINGS ───────────────────────────────────────────────────────────────
         function loadSettingsToForm() {
-            document.getElementById('companyName').value = companySettings.companyName || '';
+            document.getElementById('companyName').value    = companySettings.companyName    || '';
             document.getElementById('companyAddress').value = companySettings.companyAddress || '';
-            document.getElementById('companyPhone').value = companySettings.companyPhone || '';
-            document.getElementById('pmName').value = companySettings.pmName || '';
-            document.getElementById('pmPhone').value = companySettings.pmPhone || '';
-            document.getElementById('pmEmail').value = companySettings.pmEmail || '';
-            
+            document.getElementById('companyPhone').value   = companySettings.companyPhone   || '';
+            document.getElementById('pmName').value         = companySettings.pmName         || '';
+            document.getElementById('pmPhone').value        = companySettings.pmPhone        || '';
+            document.getElementById('pmEmail').value        = companySettings.pmEmail        || '';
             if (companySettings.logo) {
                 document.getElementById('logoImage').src = companySettings.logo;
                 document.getElementById('logoPreview').style.display = 'block';
             }
         }
 
-        // Save settings
         function saveSettings() {
-            companySettings.companyName = document.getElementById('companyName').value;
+            companySettings.companyName    = document.getElementById('companyName').value;
             companySettings.companyAddress = document.getElementById('companyAddress').value;
-            companySettings.companyPhone = document.getElementById('companyPhone').value;
-            companySettings.pmName = document.getElementById('pmName').value;
-            companySettings.pmPhone = document.getElementById('pmPhone').value;
-            companySettings.pmEmail = document.getElementById('pmEmail').value;
-            
+            companySettings.companyPhone   = document.getElementById('companyPhone').value;
+            companySettings.pmName         = document.getElementById('pmName').value;
+            companySettings.pmPhone        = document.getElementById('pmPhone').value;
+            companySettings.pmEmail        = document.getElementById('pmEmail').value;
             localStorage.setItem('companySettings', JSON.stringify(companySettings));
             showToast('Settings saved!');
         }
 
-        // Handle logo upload
         function handleLogoUpload(event) {
             const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    companySettings.logo = e.target.result;
-                    document.getElementById('logoImage').src = e.target.result;
-                    document.getElementById('logoPreview').style.display = 'block';
-                    saveSettings();
-                };
-                reader.readAsDataURL(file);
-            }
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = e => {
+                companySettings.logo = e.target.result;
+                document.getElementById('logoImage').src = e.target.result;
+                document.getElementById('logoPreview').style.display = 'block';
+                saveSettings();
+            };
+            reader.readAsDataURL(file);
         }
 
-        // Remove logo
         function removeLogo() {
             companySettings.logo = null;
             document.getElementById('logoPreview').style.display = 'none';
@@ -833,1414 +721,458 @@
             showToast('Logo removed');
         }
 
-        // Save to localStorage
-        function saveData() {
-            localStorage.setItem('pricingDatabase', JSON.stringify(pricingDatabase));
-        }
+        function openSettings()        { document.getElementById('settingsModal').classList.add('show'); }
+        function closeSettings()       { document.getElementById('settingsModal').classList.remove('show'); }
+        function saveSettingsAndClose(){ saveSettings(); closeSettings(); }
 
-        // Tab switching
+        // ─── TABS ───────────────────────────────────────────────────────────────────
         function switchTab(tab) {
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
-            
             if (tab === 'estimate') {
                 document.querySelectorAll('.tab')[0].classList.add('active');
                 document.getElementById('estimateTab').classList.add('active');
-            } else if (tab === 'pricing') {
+            } else {
                 document.querySelectorAll('.tab')[1].classList.add('active');
                 document.getElementById('pricingTab').classList.add('active');
             }
         }
 
-        // Settings modal functions
-        function openSettings() {
-            document.getElementById('settingsModal').classList.add('show');
-        }
-
-        function closeSettings() {
-            document.getElementById('settingsModal').classList.remove('show');
-        }
-
-        function saveSettingsAndClose() {
-            saveSettings();
-            closeSettings();
-        }
-
-        // Saved estimates functions
+        // ─── SAVED ESTIMATES ────────────────────────────────────────────────────────
         function saveCurrentEstimate() {
-            if (lineItems.length === 0) {
-                showToast('Add line items first');
-                return;
-            }
-
-            const projectName = document.getElementById('projectName').value || 'Untitled Project';
-            const customerName = document.getElementById('customerName').value || 'Customer';
-            const projectNotes = document.getElementById('projectNotes').value;
+            if (lineItems.length === 0) { showToast('Add line items first'); return; }
             const dryoutDays = parseFloat(document.getElementById('dryoutDays').value) || 3;
-            
-            // Calculate totals
-            let equipmentSubtotal = 0;
-            let nonEquipmentSubtotal = 0;
-            
+            let eqSub = 0, nonEqSub = 0;
             lineItems.forEach(item => {
-                if (isEquipmentItem(item.name)) {
-                    equipmentSubtotal += item.total * dryoutDays;
-                } else {
-                    nonEquipmentSubtotal += item.total;
-                }
+                isEquipmentItem(item.name) ? (eqSub += item.total * dryoutDays) : (nonEqSub += item.total);
             });
-            
-            const customerTotal = nonEquipmentSubtotal + equipmentSubtotal;
-            
-            const estimate = {
+            savedEstimates.unshift({
                 id: Date.now(),
                 date: new Date().toLocaleDateString(),
-                projectName: projectName,
-                customerName: customerName,
-                projectNotes: projectNotes,
-                lineItems: JSON.parse(JSON.stringify(lineItems)),
-                dryoutDays: dryoutDays,
-                customerTotal: customerTotal
-            };
-
-            savedEstimates.unshift(estimate); // Add to beginning
+                projectName:  document.getElementById('projectName').value  || 'Untitled Project',
+                customerName: document.getElementById('customerName').value || 'Customer',
+                projectNotes: document.getElementById('projectNotes').value,
+                lineItems:    JSON.parse(JSON.stringify(lineItems)),
+                dryoutDays,
+                customerTotal: nonEqSub + eqSub
+            });
             localStorage.setItem('savedEstimates', JSON.stringify(savedEstimates));
             showToast('Estimate saved!');
         }
 
         function createNewEstimate() {
-            if (lineItems.length > 0) {
-                if (!confirm('Clear current estimate and start new? (Make sure to save if needed)')) {
-                    return;
-                }
-            }
-
-            // Clear all fields
-            document.getElementById('projectName').value = '';
+            if (lineItems.length > 0 && !confirm('Clear current estimate and start new? (Make sure to save if needed)')) return;
+            document.getElementById('projectName').value  = '';
             document.getElementById('customerName').value = '';
             document.getElementById('projectNotes').value = '';
-            
-            // Clear line items
             lineItems = [];
             renderLineItems();
             updateSummary();
-            
             showToast('Ready for new estimate!');
         }
 
         function viewSavedEstimates() {
             const container = document.getElementById('savedEstimatesList');
-            
             if (savedEstimates.length === 0) {
-                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📋</div><p>No saved estimates yet. Create and save an estimate to see it here!</p></div>';
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">&#128203;</div><p>No saved estimates yet.</p></div>';
             } else {
                 container.innerHTML = '';
-                savedEstimates.forEach(estimate => {
+                savedEstimates.forEach(est => {
                     const div = document.createElement('div');
                     div.className = 'line-item';
                     div.innerHTML = `
                         <div class="line-item-header">
                             <div>
-                                <div class="line-item-title">${estimate.projectName}</div>
-                                <div style="font-size: 12px; color: #999; margin-top: 3px;">${estimate.date} - ${estimate.customerName}</div>
+                                <div class="line-item-title">${est.projectName}</div>
+                                <div style="font-size:12px;color:#999;margin-top:3px;">${est.date} &mdash; ${est.customerName}</div>
                             </div>
-                            <button class="line-item-delete" onclick="deleteEstimate(${estimate.id})">Delete</button>
+                            <button class="line-item-delete" onclick="deleteEstimate(${est.id})">Delete</button>
                         </div>
                         <div class="line-item-details">
-                            <div>${estimate.lineItems.length} items</div>
-                            <div>Total: $${estimate.customerTotal.toFixed(2)}</div>
+                            <div>${est.lineItems.length} items</div>
+                            <div>Total: $${est.customerTotal.toFixed(2)}</div>
                         </div>
-                        <div style="margin-top: 10px;">
-                            <button class="btn btn-small" onclick="loadEstimate(${estimate.id})">Load Estimate</button>
-                        </div>
-                    `;
+                        <div style="margin-top:10px;">
+                            <button class="btn btn-small" onclick="loadEstimate(${est.id})">Load Estimate</button>
+                        </div>`;
                     container.appendChild(div);
                 });
             }
-
             document.getElementById('savedEstimatesModal').classList.add('show');
         }
 
-        function closeSavedEstimates() {
-            document.getElementById('savedEstimatesModal').classList.remove('show');
-        }
+        function closeSavedEstimates() { document.getElementById('savedEstimatesModal').classList.remove('show'); }
 
         function deleteEstimate(id) {
-            if (confirm('Delete this estimate?')) {
-                savedEstimates = savedEstimates.filter(e => e.id !== id);
-                localStorage.setItem('savedEstimates', JSON.stringify(savedEstimates));
-                viewSavedEstimates(); // Refresh the list
-                showToast('Estimate deleted');
-            }
+            if (!confirm('Delete this estimate?')) return;
+            savedEstimates = savedEstimates.filter(e => e.id !== id);
+            localStorage.setItem('savedEstimates', JSON.stringify(savedEstimates));
+            viewSavedEstimates();
+            showToast('Estimate deleted');
         }
 
         function loadEstimate(id) {
-            const estimate = savedEstimates.find(e => e.id === id);
-            if (!estimate) return;
-
-            // Load all data back into the form
-            document.getElementById('projectName').value = estimate.projectName;
-            document.getElementById('customerName').value = estimate.customerName;
-            document.getElementById('projectNotes').value = estimate.projectNotes;
-            document.getElementById('dryoutDays').value = estimate.dryoutDays || 3;
-
-            // Load line items
-            lineItems = JSON.parse(JSON.stringify(estimate.lineItems));
-            
-            // Switch to estimate tab and update UI
+            const est = savedEstimates.find(e => e.id === id);
+            if (!est) return;
+            document.getElementById('projectName').value  = est.projectName;
+            document.getElementById('customerName').value = est.customerName;
+            document.getElementById('projectNotes').value = est.projectNotes;
+            document.getElementById('dryoutDays').value   = est.dryoutDays || 3;
+            lineItems = JSON.parse(JSON.stringify(est.lineItems));
             switchTab('estimate');
             closeSavedEstimates();
             renderLineItems();
             updateSummary();
-            
             showToast('Estimate loaded!');
         }
 
-        // Update material select dropdown
+        // ─── DROPDOWNS ──────────────────────────────────────────────────────────────
         function updateMaterialSelect() {
-            const materialSelect = document.getElementById('materialSelect');
-            const equipmentSelect = document.getElementById('equipmentSelect');
-            
-            materialSelect.innerHTML = '<option value="">Select labor or material...</option>';
-            equipmentSelect.innerHTML = '<option value="">Select equipment...</option>';
-            
+            const matSel = document.getElementById('materialSelect');
+            const eqSel  = document.getElementById('equipmentSelect');
+            matSel.innerHTML = '<option value="">Select labor or material...</option>';
+            eqSel.innerHTML  = '<option value="">Select equipment...</option>';
             pricingDatabase.forEach(item => {
+                const opt = document.createElement('option');
+                opt.value = item.id;
                 if (isEquipmentItem(item.name)) {
-                    // Add to equipment select
-                    const option = document.createElement('option');
-                    option.value = item.id;
-                    // For equipment, show as per day
-                    const displayUnit = item.unit === 'day' ? 'day' : `${item.unit}/day`;
-                    option.textContent = `${item.name} - $${item.price.toFixed(2)}/${displayUnit}`;
-                    equipmentSelect.appendChild(option);
+                    const du = item.unit === 'day' ? 'day' : `${item.unit}/day`;
+                    opt.textContent = `${item.name} - $${item.price.toFixed(2)}/${du}`;
+                    eqSel.appendChild(opt);
                 } else {
-                    // Add to material/labor select
-                    const option = document.createElement('option');
-                    option.value = item.id;
-                    option.textContent = `${item.name} - $${item.price.toFixed(2)}/${item.unit}`;
-                    materialSelect.appendChild(option);
+                    opt.textContent = `${item.name} - $${item.price.toFixed(2)}/${item.unit}`;
+                    matSel.appendChild(opt);
                 }
             });
         }
 
-        // Update unit price when material is selected
-        document.getElementById('materialSelect').addEventListener('change', function() {
-            const itemId = parseInt(this.value);
-            const item = pricingDatabase.find(i => i.id === itemId);
-            const unitPriceInput = document.getElementById('unitPrice');
-            
+        document.getElementById('materialSelect').addEventListener('change', function () {
+            const item = pricingDatabase.find(i => i.id === parseInt(this.value));
+            document.getElementById('unitPrice').value = item ? `$${item.price.toFixed(2)}/${item.unit}` : '';
+        });
+
+        document.getElementById('equipmentSelect').addEventListener('change', function () {
+            const item = pricingDatabase.find(i => i.id === parseInt(this.value));
             if (item) {
-                unitPriceInput.value = `$${item.price.toFixed(2)}/${item.unit}`;
+                const du = item.unit === 'day' ? 'day' : `${item.unit}/day`;
+                document.getElementById('equipmentRate').value = `$${item.price.toFixed(2)}/${du}`;
             } else {
-                unitPriceInput.value = '';
+                document.getElementById('equipmentRate').value = '';
             }
         });
 
-        // Update daily rate when equipment is selected
-        document.getElementById('equipmentSelect').addEventListener('change', function() {
-            const itemId = parseInt(this.value);
-            const item = pricingDatabase.find(i => i.id === itemId);
-            const equipmentRateInput = document.getElementById('equipmentRate');
-            
-            if (item) {
-                const displayUnit = item.unit === 'day' ? 'day' : `${item.unit}/day`;
-                equipmentRateInput.value = `$${item.price.toFixed(2)}/${displayUnit}`;
-            } else {
-                equipmentRateInput.value = '';
-            }
-        });
-
-        // Add line item to estimate
+        // ─── ADD ITEMS ──────────────────────────────────────────────────────────────
         function addLineItem() {
             const materialId = parseInt(document.getElementById('materialSelect').value);
-            const quantity = parseFloat(document.getElementById('quantity').value);
-
-            if (!materialId || !quantity || quantity <= 0) {
-                showToast('Please select a material and enter quantity');
-                return;
-            }
-
+            const quantity   = parseFloat(document.getElementById('quantity').value);
+            if (!materialId || !quantity || quantity <= 0) { showToast('Please select a material and enter quantity'); return; }
             const material = pricingDatabase.find(i => i.id === materialId);
-            const total = quantity * material.price;
-
-            lineItems.push({
-                id: Date.now(),
-                materialId: material.id,
-                name: material.name,
-                quantity: quantity,
-                unit: material.unit,
-                unitPrice: material.price,
-                total: total
-            });
-
-            // Clear inputs
+            lineItems.push({ id: Date.now(), materialId: material.id, name: material.name, quantity, unit: material.unit, unitPrice: material.price, total: quantity * material.price });
             document.getElementById('materialSelect').value = '';
             document.getElementById('quantity').value = '';
             document.getElementById('unitPrice').value = '';
-
             renderLineItems();
             updateSummary();
         }
 
-        // Add equipment item with quantity
         function addEquipmentItem() {
             const equipmentId = parseInt(document.getElementById('equipmentSelect').value);
-            const quantity = parseFloat(document.getElementById('equipmentQuantity').value);
-
-            if (!equipmentId) {
-                showToast('Please select equipment');
-                return;
-            }
-
-            if (!quantity || quantity <= 0) {
-                showToast('Please enter number of pieces');
-                return;
-            }
-
+            const quantity    = parseFloat(document.getElementById('equipmentQuantity').value);
+            if (!equipmentId) { showToast('Please select equipment'); return; }
+            if (!quantity || quantity <= 0) { showToast('Please enter number of pieces'); return; }
             const equipment = pricingDatabase.find(i => i.id === equipmentId);
-            const total = quantity * equipment.price;
-
-            lineItems.push({
-                id: Date.now(),
-                materialId: equipment.id,
-                name: equipment.name,
-                quantity: quantity,
-                unit: equipment.unit,
-                unitPrice: equipment.price,
-                total: total
-            });
-
-            // Clear inputs
-            document.getElementById('equipmentSelect').value = '';
-            document.getElementById('equipmentQuantity').value = '';
-            document.getElementById('equipmentRate').value = '';
-
+            lineItems.push({ id: Date.now(), materialId: equipment.id, name: equipment.name, quantity, unit: equipment.unit, unitPrice: equipment.price, total: quantity * equipment.price });
+            document.getElementById('equipmentSelect').value    = '';
+            document.getElementById('equipmentQuantity').value  = '';
+            document.getElementById('equipmentRate').value      = '';
             renderLineItems();
             updateSummary();
             showToast('Equipment added');
         }
 
-        // Remove line item
-        function removeLineItem(id) {
-            lineItems = lineItems.filter(item => item.id !== id);
-            renderLineItems();
-            updateSummary();
-        }
+        function removeLineItem(id) { lineItems = lineItems.filter(i => i.id !== id); renderLineItems(); updateSummary(); }
 
-        // Render line items
+        // ─── RENDER ─────────────────────────────────────────────────────────────────
         function renderLineItems() {
-            const container = document.getElementById('lineItemsList');
-            const section = document.getElementById('lineItemsSection');
-
-            if (lineItems.length === 0) {
-                section.style.display = 'none';
-                return;
-            }
-
+            const container  = document.getElementById('lineItemsList');
+            const section    = document.getElementById('lineItemsSection');
+            if (lineItems.length === 0) { section.style.display = 'none'; return; }
             section.style.display = 'block';
-            container.innerHTML = '';
-            
+            container.innerHTML   = '';
             const dryoutDays = parseFloat(document.getElementById('dryoutDays').value) || 3;
-            
-
             lineItems.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'line-item';
-                
-                const isEquipment = isEquipmentItem(item.name);
-                
-                if (isEquipment) {
-                    // Equipment items show with dryout calculation
-                    const fullPrice = item.total * dryoutDays;
-                    div.innerHTML = `
-                        <div class="line-item-header">
-                            <span class="line-item-title">${item.name}</span>
-                            <button class="line-item-delete" onclick="removeLineItem(${item.id})">Remove</button>
-                        </div>
-                        <div class="line-item-details">
-                            <div>Qty: ${item.quantity.toFixed(0)} ${item.unit}</div>
-                            <div>@ $${item.unitPrice.toFixed(2)}/${item.unit}</div>
-                            <div>${dryoutDays} days dryout</div>
-                        </div>
-                        <div class="line-item-total">$${fullPrice.toFixed(2)}</div>
-                    `;
-                } else {
-                    // Labor/material items show normally
-                    div.innerHTML = `
-                        <div class="line-item-header">
-                            <span class="line-item-title">${item.name}</span>
-                            <button class="line-item-delete" onclick="removeLineItem(${item.id})">Remove</button>
-                        </div>
-                        <div class="line-item-details">
-                            <div>Qty: ${item.quantity.toFixed(2)} ${item.unit}</div>
-                            <div>@ $${item.unitPrice.toFixed(2)}/${item.unit}</div>
-                        </div>
-                        <div class="line-item-total">$${item.total.toFixed(2)}</div>
-                    `;
-                }
+                const div        = document.createElement('div');
+                div.className    = 'line-item';
+                const isEq       = isEquipmentItem(item.name);
+                const displayAmt = isEq ? (item.total * dryoutDays).toFixed(2) : item.total.toFixed(2);
+                const extraRow   = isEq ? `<div>${dryoutDays} days dryout</div>` : '';
+                div.innerHTML = `
+                    <div class="line-item-header">
+                        <span class="line-item-title">${item.name}</span>
+                        <button class="line-item-delete" onclick="removeLineItem(${item.id})">Remove</button>
+                    </div>
+                    <div class="line-item-details">
+                        <div>Qty: ${isEq ? item.quantity.toFixed(0) : item.quantity.toFixed(2)} ${item.unit}</div>
+                        <div>@ $${item.unitPrice.toFixed(2)}/${item.unit}</div>
+                        ${extraRow}
+                    </div>
+                    <div class="line-item-total">$${displayAmt}</div>`;
                 container.appendChild(div);
             });
         }
 
-        // Update estimate summary
         function updateSummary() {
             const summaryDiv = document.getElementById('estimateSummary');
-            
-            if (lineItems.length === 0) {
-                summaryDiv.style.display = 'none';
-                return;
-            }
-
+            if (lineItems.length === 0) { summaryDiv.style.display = 'none'; return; }
             summaryDiv.style.display = 'block';
-
             const dryoutDays = parseFloat(document.getElementById('dryoutDays').value) || 3;
-            
-            // Equipment items to multiply by days
-            
-            
-            let equipmentSubtotal = 0;
-            let nonEquipmentSubtotal = 0;
-            
+            let eqSub = 0, nonEqSub = 0;
             lineItems.forEach(item => {
-                const isEquipment = isEquipmentItem(item.name);
-                if (isEquipment) {
-                    equipmentSubtotal += item.total * dryoutDays;
-                } else {
-                    nonEquipmentSubtotal += item.total;
-                }
+                isEquipmentItem(item.name) ? (eqSub += item.total * dryoutDays) : (nonEqSub += item.total);
             });
-            
-            const subtotal = nonEquipmentSubtotal;
-            const equipmentCost = equipmentSubtotal;
-            const grandTotal = subtotal + equipmentCost;
-            
-            document.getElementById('subtotal').textContent = `$${subtotal.toFixed(2)}`;
-            document.getElementById('equipmentCost').textContent = `$${equipmentCost.toFixed(2)}`;
-            document.getElementById('grandTotal').textContent = `$${grandTotal.toFixed(2)}`;
+            document.getElementById('subtotal').textContent        = `$${nonEqSub.toFixed(2)}`;
+            document.getElementById('equipmentCost').textContent   = `$${eqSub.toFixed(2)}`;
+            document.getElementById('grandTotal').textContent      = `$${(nonEqSub + eqSub).toFixed(2)}`;
             document.getElementById('dryoutDaysDisplay').textContent = dryoutDays.toFixed(0);
         }
 
-        // Remove updateMarginCalculations function since we don't need it
-        function updateMarginCalculations() {
-            // No longer needed for MIT Ballpark Pro
-        }
-
-        // Pricing database management
+        // ─── PRICING DATABASE MANAGEMENT ────────────────────────────────────────────
         function renderPricingList() {
             const container = document.getElementById('pricingList');
             container.innerHTML = '';
-
             if (pricingDatabase.length === 0) {
-                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📋</div><p>No pricing items yet. Add your first item!</p></div>';
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">&#128203;</div><p>No pricing items yet.</p></div>';
                 return;
             }
-
             pricingDatabase.forEach(item => {
                 const div = document.createElement('div');
                 div.className = 'pricing-item';
                 div.innerHTML = `
                     <input type="text" value="${item.name}" onchange="updatePricingItem(${item.id}, 'name', this.value)">
-                    <div style="display: flex; align-items: center; gap: 5px;">
-                        <input type="number" step="0.01" value="${item.price}" onchange="updatePricingItem(${item.id}, 'price', parseFloat(this.value))" style="width: 80px;">
+                    <div style="display:flex;align-items:center;gap:5px;">
+                        <input type="number" step="0.01" value="${item.price}" onchange="updatePricingItem(${item.id}, 'price', parseFloat(this.value))" style="width:80px;">
                         <span class="badge badge-unit">/${item.unit}</span>
                     </div>
                     <select onchange="updatePricingItem(${item.id}, 'unit', this.value)">
-                        <option value="sq ft" ${item.unit === 'sq ft' ? 'selected' : ''}>sq ft</option>
-                        <option value="lin ft" ${item.unit === 'lin ft' ? 'selected' : ''}>lin ft</option>
-                        <option value="each" ${item.unit === 'each' ? 'selected' : ''}>each</option>
-                        <option value="hour" ${item.unit === 'hour' ? 'selected' : ''}>hour</option>
+                        <option value="sq ft"  ${item.unit==='sq ft'  ?'selected':''}>sq ft</option>
+                        <option value="lin ft" ${item.unit==='lin ft' ?'selected':''}>lin ft</option>
+                        <option value="each"   ${item.unit==='each'   ?'selected':''}>each</option>
+                        <option value="hour"   ${item.unit==='hour'   ?'selected':''}>hour</option>
+                        <option value="day"    ${item.unit==='day'    ?'selected':''}>day</option>
                     </select>
-                    <button class="line-item-delete" onclick="deletePricingItem(${item.id})">✕</button>
-                `;
+                    <button class="line-item-delete" onclick="deletePricingItem(${item.id})">&#10005;</button>`;
                 container.appendChild(div);
             });
         }
 
         function addPricingItem() {
-            const newItem = {
-                id: nextId++,
-                name: 'New Item',
-                unit: 'sq ft',
-                price: 0
-            };
-            pricingDatabase.push(newItem);
-            saveData();
-            updateMaterialSelect();
-            renderPricingList();
-            showToast('Item added');
+            pricingDatabase.push({ id: nextId++, name: 'New Item', unit: 'sq ft', price: 0 });
+            saveData(); updateMaterialSelect(); renderPricingList(); showToast('Item added');
         }
 
         function updatePricingItem(id, field, value) {
             const item = pricingDatabase.find(i => i.id === id);
-            if (item) {
-                item[field] = value;
-                saveData();
-                updateMaterialSelect();
-                showToast('Pricing updated');
-            }
+            if (!item) return;
+            item[field] = value;
+            saveData(); updateMaterialSelect(); showToast('Pricing updated');
         }
 
         function deletePricingItem(id) {
-            if (confirm('Delete this pricing item?')) {
-                pricingDatabase = pricingDatabase.filter(i => i.id !== id);
-                saveData();
-                updateMaterialSelect();
-                renderPricingList();
-                showToast('Item deleted');
-            }
+            if (!confirm('Delete this pricing item?')) return;
+            pricingDatabase = pricingDatabase.filter(i => i.id !== id);
+            saveData(); updateMaterialSelect(); renderPricingList(); showToast('Item deleted');
         }
 
-        // Document generation
+        // ─── DOCUMENT GENERATION ────────────────────────────────────────────────────
         let currentDocument = '';
-        let currentDocType = '';
+        let currentDocType  = '';
 
-        function showDocumentModal(type) {
-            if (lineItems.length === 0) {
-                showToast('Add line items first');
-                return;
-            }
-
-            const projectName = document.getElementById('projectName').value || 'Untitled Project';
+        function showDocumentModal() {
+            if (lineItems.length === 0) { showToast('Add line items first'); return; }
+            const projectName  = document.getElementById('projectName').value  || 'Untitled Project';
             const customerName = document.getElementById('customerName').value || 'Customer';
             const projectNotes = document.getElementById('projectNotes').value;
-            const today = new Date().toLocaleDateString();
-            const docNumber = Math.floor(Math.random() * 90000) + 10000;
-
-            currentDocType = 'estimate';
-            currentDocument = generateEstimateDocument(docNumber, today, projectName, customerName, projectNotes);
+            const today        = new Date().toLocaleDateString();
+            const docNumber    = Math.floor(Math.random() * 90000) + 10000;
+            currentDocType     = 'estimate';
+            currentDocument    = generateEstimateDocument(docNumber, today, projectName, customerName, projectNotes);
             document.getElementById('modalTitle').textContent = 'Mitigation Estimate Preview';
-
             document.getElementById('documentPreview').textContent = currentDocument;
             document.getElementById('documentModal').classList.add('show');
         }
 
         function generateEstimateDocument(number, date, project, customer, notes) {
             const dryoutDays = parseFloat(document.getElementById('dryoutDays').value) || 3;
-            
-            
-            let equipmentSubtotal = 0;
-            let nonEquipmentSubtotal = 0;
-            
+            let eqSub = 0, nonEqSub = 0;
             lineItems.forEach(item => {
-                const isEquipment = isEquipmentItem(item.name);
-                if (isEquipment) {
-                    equipmentSubtotal += item.total * dryoutDays;
-                } else {
-                    nonEquipmentSubtotal += item.total;
-                }
+                isEquipmentItem(item.name) ? (eqSub += item.total * dryoutDays) : (nonEqSub += item.total);
             });
-            
-            const total = nonEquipmentSubtotal + equipmentSubtotal;
-            
-            let doc = ``;
-            
-            // Add company header if available
-            if (companySettings.companyName) {
-                doc += `${companySettings.companyName}\n`;
-            }
-            if (companySettings.companyAddress) {
-                doc += `${companySettings.companyAddress}\n`;
-            }
-            if (companySettings.companyPhone) {
-                doc += `Phone: ${companySettings.companyPhone}\n`;
-            }
-            if (companySettings.companyName) {
-                doc += `\n`;
-            }
-            
-            doc += `═══════════════════════════════════════════════════════
+            const total = nonEqSub + eqSub;
+            let doc = '';
+            if (companySettings.companyName)    doc += `${companySettings.companyName}\n`;
+            if (companySettings.companyAddress) doc += `${companySettings.companyAddress}\n`;
+            if (companySettings.companyPhone)   doc += `Phone: ${companySettings.companyPhone}\n`;
+            if (companySettings.companyName)    doc += `\n`;
+
+            doc += `\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
                 MITIGATION ESTIMATE #${number}
-═══════════════════════════════════════════════════════
+\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
 
 Date: ${date}
 Project: ${project}
 Customer: ${customer}`;
-
-            if (companySettings.pmName) {
-                doc += `\nProject Manager: ${companySettings.pmName}`;
-            }
-            if (companySettings.pmPhone) {
-                doc += `\nPM Phone: ${companySettings.pmPhone}`;
-            }
-            if (companySettings.pmEmail) {
-                doc += `\nPM Email: ${companySettings.pmEmail}`;
-            }
-
-            doc += `\nEstimated Dryout Duration: ${dryoutDays} days\n`;
-
-            doc += `
-
-───────────────────────────────────────────────────────
+            if (companySettings.pmName)  doc += `\nProject Manager: ${companySettings.pmName}`;
+            if (companySettings.pmPhone) doc += `\nPM Phone: ${companySettings.pmPhone}`;
+            if (companySettings.pmEmail) doc += `\nPM Email: ${companySettings.pmEmail}`;
+            doc += `\nEstimated Dryout Duration: ${dryoutDays} days\n\n`;
+            doc += `\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 IMPORTANT NOTICE
-───────────────────────────────────────────────────────
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
-This is a Rough Order of Magnitude (ROM) estimate provided for 
-preliminary budgeting only. It is a general ballpark range based 
-on limited information and is not a finalized scope or binding 
-proposal. Actual costs may vary based on site inspection, 
-confirmed scope, and conditions discovered during mitigation.
+This is a Rough Order of Magnitude (ROM) estimate provided for
+preliminary budgeting only. Actual costs may vary based on site
+inspection, confirmed scope, and conditions found during mitigation.
 
-───────────────────────────────────────────────────────
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 SCOPE OF WORK
-───────────────────────────────────────────────────────
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n`;
 
-`;
-            
             lineItems.forEach(item => {
-                const isEquipment = isEquipmentItem(item.name);
+                const isEq = isEquipmentItem(item.name);
                 doc += `${item.name}\n`;
                 doc += `  Quantity: ${item.quantity.toFixed(2)} ${item.unit} @ $${item.unitPrice.toFixed(2)}/${item.unit}\n`;
-                if (isEquipment) {
-                    doc += `  Daily Rate: $${item.total.toFixed(2)} × ${dryoutDays} days = $${(item.total * dryoutDays).toFixed(2)}\n\n`;
-                } else {
-                    doc += `  Cost: $${item.total.toFixed(2)}\n\n`;
-                }
+                doc += isEq
+                    ? `  Daily Rate: $${item.total.toFixed(2)} \u00d7 ${dryoutDays} days = $${(item.total * dryoutDays).toFixed(2)}\n\n`
+                    : `  Cost: $${item.total.toFixed(2)}\n\n`;
             });
 
-            if (notes) {
-                doc += `───────────────────────────────────────────────────────
-NOTES
-───────────────────────────────────────────────────────
+            if (notes) doc += `\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nNOTES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n${notes}\n\n`;
 
-${notes}
-
-`;
-            }
-
-            doc += `───────────────────────────────────────────────────────
+            doc += `\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 ESTIMATE SUMMARY
-───────────────────────────────────────────────────────
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
-Line Items Subtotal:           $${nonEquipmentSubtotal.toFixed(2)}
-Equipment (${dryoutDays} days):               $${equipmentSubtotal.toFixed(2)}
-                                ─────────────────
+Line Items Subtotal:           $${nonEqSub.toFixed(2)}
+Equipment (${dryoutDays} days):               $${eqSub.toFixed(2)}
+                                \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 TOTAL ESTIMATE:                 $${total.toFixed(2)}
-───────────────────────────────────────────────────────
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
 This estimate is valid for 30 days from the date above.
 
-═══════════════════════════════════════════════════════`;
-
+\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550`;
             return doc;
         }
 
-        function generateWorkOrder(number, date, project, customer, notes) {
-            const subtotal = lineItems.reduce((sum, item) => sum + item.total, 0);
-            const overheadPercent = parseFloat(document.getElementById('overheadPercent').value) || 0;
-            const profitPercent = parseFloat(document.getElementById('profitPercent').value) || 0;
-            const overheadAmount = subtotal * (overheadPercent / 100);
-            const profitAmount = subtotal * (profitPercent / 100);
-            const customerTotal = subtotal + overheadAmount + profitAmount;
-            const marginPercent = parseFloat(document.getElementById('grossMarginPercent').value) || 30;
-            const payoutPercent = 100 - marginPercent;
-            const workOrderTotal = customerTotal * (payoutPercent / 100);
-            
-            let doc = ``;
-            
-            // Add company header if available
-            if (companySettings.companyName) {
-                doc += `${companySettings.companyName}\n`;
-            }
-            if (companySettings.companyAddress) {
-                doc += `${companySettings.companyAddress}\n`;
-            }
-            if (companySettings.companyPhone) {
-                doc += `Phone: ${companySettings.companyPhone}\n`;
-            }
-            if (companySettings.companyName) {
-                doc += `\n`;
-            }
-            
-            doc += `═══════════════════════════════════════════════════════
-                    WORK ORDER #${number}
-═══════════════════════════════════════════════════════
-
-Date: ${date}
-Project: ${project}
-Customer: ${customer}`;
-
-            if (companySettings.pmName) {
-                doc += `\nProject Manager: ${companySettings.pmName}`;
-            }
-            if (companySettings.pmPhone) {
-                doc += `\nPM Phone: ${companySettings.pmPhone}`;
-            }
-            if (companySettings.pmEmail) {
-                doc += `\nPM Email: ${companySettings.pmEmail}`;
-            }
-
-            doc += `
-
-───────────────────────────────────────────────────────
-SCOPE OF WORK
-───────────────────────────────────────────────────────
-
-`;
-            
-            lineItems.forEach(item => {
-                doc += `${item.name}\n`;
-                doc += `  Quantity: ${item.quantity.toFixed(2)} ${item.unit} @ $${item.unitPrice.toFixed(2)}/${item.unit}\n`;
-                doc += `  Cost: $${item.total.toFixed(2)}\n\n`;
-            });
-
-            if (notes) {
-                doc += `───────────────────────────────────────────────────────
-NOTES
-───────────────────────────────────────────────────────
-
-${notes}
-
-`;
-            }
-
-            doc += `───────────────────────────────────────────────────────
-TOTAL AMOUNT DUE TO SUBCONTRACTOR: $${workOrderTotal.toFixed(2)}
-───────────────────────────────────────────────────────
-
-Payment terms: Due upon completion of work described above.
-
-Subcontractor Signature: _________________________
-
-Date: _________________________
-
-═══════════════════════════════════════════════════════`;
-
-            return doc;
-        }
-
-        function generateChangeOrder(number, date, project, customer, notes) {
-            const subtotal = lineItems.reduce((sum, item) => sum + item.total, 0);
-            const overheadPercent = parseFloat(document.getElementById('overheadPercent').value) || 0;
-            const profitPercent = parseFloat(document.getElementById('profitPercent').value) || 0;
-            const overheadAmount = subtotal * (overheadPercent / 100);
-            const profitAmount = subtotal * (profitPercent / 100);
-            const customerTotal = subtotal + overheadAmount + profitAmount;
-            const today = new Date();
-            const month = today.toLocaleString('default', { month: 'long' });
-            const year = today.getFullYear();
-            
-            let doc = ``;
-            
-            // Add company header if available
-            if (companySettings.companyName) {
-                doc += `${companySettings.companyName}\n`;
-            }
-            if (companySettings.companyAddress) {
-                doc += `${companySettings.companyAddress}\n`;
-            }
-            if (companySettings.companyPhone) {
-                doc += `Phone: ${companySettings.companyPhone}\n`;
-            }
-            if (companySettings.companyName) {
-                doc += `\n`;
-            }
-            
-            doc += `
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                        CHANGE ORDER
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-                          No. ${number}
-
-The undersigned Owner(s) hereby enters into an agreement with the 
-Contractor to change the previously agreed to Scope of Work being 
-done under contract of the original work authorization, dated 
-${date} as follows:
-
-PROJECT: ${project}
-CUSTOMER: ${customer}`;
-
-            if (companySettings.pmName) {
-                doc += `\nProject Manager: ${companySettings.pmName}`;
-            }
-            if (companySettings.pmPhone) {
-                doc += `\nPM Phone: ${companySettings.pmPhone}`;
-            }
-
-            doc += `
-
-───────────────────────────────────────────────────────────────
-
-SCOPE OF WORK CHANGES:
-
-`;
-            
-            lineItems.forEach((item, index) => {
-                doc += `${index + 1}. ${item.name} - ${item.quantity.toFixed(2)} ${item.unit} @ $${item.unitPrice.toFixed(2)}/${item.unit} = $${item.total.toFixed(2)}\n\n`;
-            });
-
-            // Pad remaining lines if fewer than 6
-            for (let i = lineItems.length + 1; i <= 6; i++) {
-                doc += `${i}. _______________________________________________________________\n\n`;
-            }
-
-            if (notes) {
-                doc += `\nADDITIONAL NOTES:\n${notes}\n`;
-            }
-
-            doc += `
-───────────────────────────────────────────────────────────────
-
-All of the terms of the original work authorization shall apply 
-to this Change Order, unless otherwise stipulated in writing and 
-agreed to by both parties.
-
-The total cost for the above described Scope of Work is:
-
-Materials & Labor Subtotal              $${subtotal.toFixed(2)}
-Overhead (${overheadPercent.toFixed(1)}%)                              $${overheadAmount.toFixed(2)}
-Profit (${profitPercent.toFixed(1)}%)                                $${profitAmount.toFixed(2)}
-                                        ─────────────────
-Add to original contract amount         $${customerTotal.toFixed(2)}
-Deduct from original contract amount    $__________
-
-If the above sum is an additional charge, it is due and payable 
-upon completion of the Scope of Work described above.
-
-If the above sum is a credit, it shall be deducted from the final 
-contract payment or from the insurance payment, whichever the 
-case may be.
-
-───────────────────────────────────────────────────────────────
-                          JOB RECAP
-───────────────────────────────────────────────────────────────
-
-Original Contract Amount            $__________
-Previous Change Orders (+)          $__________
-Previous Change Orders (-)          $__________
-This Change Order                   $${customerTotal.toFixed(2)}
-Current Contract Total              $__________
-
-───────────────────────────────────────────────────────────────
-
-Signed and agreed to this _____ day of ${month}, ${year}
-
-
-Owner: _____________________________
-
-       _____________________________
-       (Print Name of Owner)
-
-Owner: _____________________________
-
-       _____________________________
-       (Print Name of Owner)
-
-
-Contractor Representative: _____________________________
-
-                          _____________________________`;
-            
-            if (companySettings.pmName) {
-                doc += `\n                          ${companySettings.pmName}`;
-            }
-
-            doc += `
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
-
-            return doc;
-        }
-
-        function closeDocumentModal() {
-            document.getElementById('documentModal').classList.remove('show');
-        }
+        function closeDocumentModal() { document.getElementById('documentModal').classList.remove('show'); }
 
         function copyDocument() {
-            navigator.clipboard.writeText(currentDocument).then(() => {
-                showToast('Copied to clipboard!');
-            });
+            navigator.clipboard.writeText(currentDocument).then(() => showToast('Copied to clipboard!'));
         }
 
         function shareDocument() {
             if (navigator.share) {
-                navigator.share({
-                    title: currentDocType === 'workorder' ? 'Work Order' : 'Change Order',
-                    text: currentDocument
-                }).catch(() => {
-                    copyDocument();
-                });
-            } else {
-                copyDocument();
-            }
+                navigator.share({ title: 'Mitigation Estimate', text: currentDocument }).catch(() => copyDocument());
+            } else { copyDocument(); }
         }
 
         function downloadPDF() {
             const { jsPDF } = window.jspdf;
             const doc = new jsPDF();
-            
-            const projectName = document.getElementById('projectName').value || 'Untitled Project';
-            const customerName = document.getElementById('customerName').value || 'Customer';
-            const projectNotes = document.getElementById('projectNotes').value;
-            const today = new Date().toLocaleDateString();
-            const dryoutDays = parseFloat(document.getElementById('dryoutDays').value) || 3;
-            
-            generateEstimatePDF(doc, projectName, customerName, projectNotes, today, dryoutDays);
+            generateEstimatePDF(
+                doc,
+                document.getElementById('projectName').value  || 'Untitled Project',
+                document.getElementById('customerName').value || 'Customer',
+                document.getElementById('projectNotes').value,
+                new Date().toLocaleDateString(),
+                parseFloat(document.getElementById('dryoutDays').value) || 3
+            );
         }
 
         function generateEstimatePDF(doc, projectName, customerName, projectNotes, today, dryoutDays) {
             const docNumber = Math.floor(Math.random() * 90000) + 10000;
-            let yPos = 20;
-            
-            
-            let equipmentSubtotal = 0;
-            let nonEquipmentSubtotal = 0;
-            
+            let y = 20;
+            let eqSub = 0, nonEqSub = 0;
             lineItems.forEach(item => {
-                const isEquipment = isEquipmentItem(item.name);
-                if (isEquipment) {
-                    equipmentSubtotal += item.total * dryoutDays;
-                } else {
-                    nonEquipmentSubtotal += item.total;
-                }
+                isEquipmentItem(item.name) ? (eqSub += item.total * dryoutDays) : (nonEqSub += item.total);
             });
-            
-            const total = nonEquipmentSubtotal + equipmentSubtotal;
-            
-            // Add logo if available
+            const total = nonEqSub + eqSub;
+
             if (companySettings.logo) {
-                try {
-                    doc.addImage(companySettings.logo, 'PNG', 20, yPos, 150, 20);
-                    yPos += 25;
-                } catch (e) {
-                    console.log('Logo could not be added to PDF');
-                }
+                try { doc.addImage(companySettings.logo, 'PNG', 20, y, 150, 20); y += 25; } catch(e){}
             }
-            
-            // Company info header
-            if (companySettings.companyName) {
-                doc.setFontSize(10);
-                doc.setFont(undefined, 'bold');
-                doc.text(companySettings.companyName, 20, yPos);
-                yPos += 5;
-            }
-            if (companySettings.companyAddress) {
-                doc.setFontSize(9);
-                doc.setFont(undefined, 'normal');
-                doc.text(companySettings.companyAddress, 20, yPos);
-                yPos += 4;
-            }
-            if (companySettings.companyPhone) {
-                doc.text(`Phone: ${companySettings.companyPhone}`, 20, yPos);
-                yPos += 8;
-            } else if (companySettings.companyName) {
-                yPos += 5;
-            }
-            
-            // Header
-            doc.setFontSize(18);
-            doc.setFont(undefined, 'bold');
-            doc.text('MITIGATION R.O.M.', 105, yPos, { align: 'center' });
-            
-            yPos += 8;
+            if (companySettings.companyName)    { doc.setFontSize(10); doc.setFont(undefined,'bold');   doc.text(companySettings.companyName, 20, y); y += 5; }
+            if (companySettings.companyAddress) { doc.setFontSize(9);  doc.setFont(undefined,'normal'); doc.text(companySettings.companyAddress, 20, y); y += 4; }
+            if (companySettings.companyPhone)   { doc.text(`Phone: ${companySettings.companyPhone}`, 20, y); y += 8; }
+            else if (companySettings.companyName) { y += 5; }
+
+            doc.setFontSize(18); doc.setFont(undefined,'bold');
+            doc.text('MITIGATION R.O.M.', 105, y, { align:'center' });
+            y += 8;
             doc.setFontSize(12);
-            doc.text(`No. ${docNumber}`, 105, yPos, { align: 'center' });
-            
-            yPos += 12;
-            doc.setFontSize(10);
-            doc.setFont(undefined, 'normal');
-            doc.text(`Date: ${today}`, 20, yPos);
-            yPos += 6;
-            doc.text(`Project: ${projectName}`, 20, yPos);
-            yPos += 6;
-            doc.text(`Customer: ${customerName}`, 20, yPos);
-            yPos += 6;
-            doc.text(`Dryout Duration: ${dryoutDays} days`, 20, yPos);
-            
-            if (companySettings.pmName) {
-                yPos += 6;
-                doc.text(`Project Manager: ${companySettings.pmName}`, 20, yPos);
-            }
-            
-            yPos += 12;
-            
-            // ROM Disclaimer
-            doc.setFontSize(8);
-            doc.setFont(undefined, 'italic');
-            const disclaimerText = 'ROM ESTIMATE: This is a Rough Order of Magnitude estimate for preliminary budgeting only. Actual costs may vary based on site inspection and confirmed scope.';
-            const splitDisclaimer = doc.splitTextToSize(disclaimerText, 170);
-            doc.text(splitDisclaimer, 20, yPos);
-            yPos += (splitDisclaimer.length * 4) + 10;
-            
-            // Scope of Work - Consolidated
-            doc.setFont(undefined, 'bold');
-            doc.setFontSize(12);
-            doc.text('SCOPE OF WORK', 20, yPos);
-            doc.line(20, yPos + 2, 190, yPos + 2);
-            
-            yPos += 10;
-            doc.setFont(undefined, 'normal');
-            doc.setFontSize(10);
-            
-            // Equipment Section
-            const equipmentItems = lineItems.filter(item => 
-                isEquipmentItem(item.name)
-            );
-            
-            if (equipmentItems.length > 0) {
-                doc.setFont(undefined, 'bold');
-                doc.text('Equipment:', 20, yPos);
-                yPos += 6;
-                doc.setFont(undefined, 'normal');
-                doc.setFontSize(9);
-                
-                equipmentItems.forEach(item => {
-                    if (yPos > 260) {
-                        doc.addPage();
-                        yPos = 20;
-                    }
-                    const itemTotal = item.total * dryoutDays;
-                    doc.text(`• ${item.quantity.toFixed(0)} ${item.name}`, 25, yPos);
-                    yPos += 5;
+            doc.text(`No. ${docNumber}`, 105, y, { align:'center' });
+            y += 12;
+            doc.setFontSize(10); doc.setFont(undefined,'normal');
+            doc.text(`Date: ${today}`, 20, y);       y += 6;
+            doc.text(`Project: ${projectName}`, 20, y); y += 6;
+            doc.text(`Customer: ${customerName}`, 20, y); y += 6;
+            doc.text(`Dryout Duration: ${dryoutDays} days`, 20, y);
+            if (companySettings.pmName) { y += 6; doc.text(`Project Manager: ${companySettings.pmName}`, 20, y); }
+            y += 12;
+
+            doc.setFontSize(8); doc.setFont(undefined,'italic');
+            const disc = doc.splitTextToSize('ROM ESTIMATE: This is a Rough Order of Magnitude estimate for preliminary budgeting only. Actual costs may vary based on site inspection and confirmed scope.', 170);
+            doc.text(disc, 20, y); y += (disc.length * 4) + 10;
+
+            doc.setFont(undefined,'bold'); doc.setFontSize(12);
+            doc.text('SCOPE OF WORK', 20, y); doc.line(20, y+2, 190, y+2); y += 10;
+
+            const eqItems  = lineItems.filter(i =>  isEquipmentItem(i.name));
+            const labItems = lineItems.filter(i => !isEquipmentItem(i.name));
+
+            if (eqItems.length > 0) {
+                doc.setFont(undefined,'bold'); doc.setFontSize(10); doc.text('Equipment:', 20, y); y += 6;
+                doc.setFont(undefined,'normal'); doc.setFontSize(9);
+                eqItems.forEach(item => {
+                    if (y > 260) { doc.addPage(); y = 20; }
+                    doc.text(`\u2022 ${item.quantity.toFixed(0)} ${item.name}`, 25, y); y += 5;
                 });
-                yPos += 5;
+                y += 5;
             }
-            
-            // Labor/Materials Section
-            const laborMaterialItems = lineItems.filter(item => 
-                !isEquipmentItem(item.name)
-            );
-            
-            if (laborMaterialItems.length > 0) {
-                if (yPos > 240) {
-                    doc.addPage();
-                    yPos = 20;
-                }
-                doc.setFontSize(10);
-                doc.setFont(undefined, 'bold');
-                doc.text('Labor & Materials:', 20, yPos);
-                yPos += 6;
-                doc.setFont(undefined, 'normal');
-                doc.setFontSize(9);
-                
-                laborMaterialItems.forEach(item => {
-                    if (yPos > 260) {
-                        doc.addPage();
-                        yPos = 20;
-                    }
-                    doc.text(`• ${item.name}`, 25, yPos);
-                    yPos += 5;
+            if (labItems.length > 0) {
+                if (y > 240) { doc.addPage(); y = 20; }
+                doc.setFont(undefined,'bold'); doc.setFontSize(10); doc.text('Labor & Materials:', 20, y); y += 6;
+                doc.setFont(undefined,'normal'); doc.setFontSize(9);
+                labItems.forEach(item => {
+                    if (y > 260) { doc.addPage(); y = 20; }
+                    doc.text(`\u2022 ${item.name}`, 25, y); y += 5;
                 });
-                yPos += 5;
+                y += 5;
             }
-            
+
             if (projectNotes) {
-                yPos += 5;
-                if (yPos > 240) {
-                    doc.addPage();
-                    yPos = 20;
-                }
-                
-                doc.setFont(undefined, 'bold');
-                doc.setFontSize(10);
-                doc.text('NOTES', 20, yPos);
-                yPos += 6;
-                
-                doc.setFont(undefined, 'normal');
-                doc.setFontSize(9);
-                const splitNotes = doc.splitTextToSize(projectNotes, 170);
-                doc.text(splitNotes, 20, yPos);
-                yPos += (splitNotes.length * 4) + 8;
+                y += 5;
+                if (y > 240) { doc.addPage(); y = 20; }
+                doc.setFont(undefined,'bold'); doc.setFontSize(10); doc.text('NOTES', 20, y); y += 6;
+                doc.setFont(undefined,'normal'); doc.setFontSize(9);
+                const sn = doc.splitTextToSize(projectNotes, 170);
+                doc.text(sn, 20, y); y += (sn.length * 4) + 8;
             }
-            
-            // Summary
-            if (yPos > 220) {
-                doc.addPage();
-                yPos = 20;
-            }
-            
-            yPos += 10;
-            doc.setFont(undefined, 'bold');
-            doc.setFontSize(12);
-            doc.text('ESTIMATE SUMMARY', 20, yPos);
-            doc.line(20, yPos + 2, 190, yPos + 2);
-            
-            yPos += 10;
-            doc.setFont(undefined, 'normal');
-            doc.setFontSize(10);
-            doc.text('Line Items Subtotal:', 20, yPos);
-            doc.text(`$${nonEquipmentSubtotal.toFixed(2)}`, 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.text(`Equipment (${dryoutDays} days):`, 20, yPos);
-            doc.text(`$${equipmentSubtotal.toFixed(2)}`, 190, yPos, { align: 'right' });
-            yPos += 2;
-            doc.line(140, yPos, 190, yPos);
-            yPos += 6;
-            doc.setFont(undefined, 'bold');
-            doc.setFontSize(14);
-            doc.text('TOTAL ESTIMATE:', 20, yPos);
-            doc.text(`$${total.toFixed(2)}`, 190, yPos, { align: 'right' });
-            
-            yPos += 10;
-            doc.setFontSize(8);
-            doc.setFont(undefined, 'italic');
-            doc.text('This estimate is valid for 30 days from the date above.', 105, yPos, { align: 'center' });
-            
+
+            if (y > 220) { doc.addPage(); y = 20; }
+            y += 10;
+            doc.setFont(undefined,'bold'); doc.setFontSize(12);
+            doc.text('ESTIMATE SUMMARY', 20, y); doc.line(20, y+2, 190, y+2); y += 10;
+            doc.setFont(undefined,'normal'); doc.setFontSize(10);
+            doc.text('Line Items Subtotal:', 20, y);              doc.text(`$${nonEqSub.toFixed(2)}`, 190, y, {align:'right'}); y += 6;
+            doc.text(`Equipment (${dryoutDays} days):`, 20, y);   doc.text(`$${eqSub.toFixed(2)}`, 190, y, {align:'right'});    y += 2;
+            doc.line(140, y, 190, y); y += 6;
+            doc.setFont(undefined,'bold'); doc.setFontSize(14);
+            doc.text('TOTAL ESTIMATE:', 20, y);                   doc.text(`$${total.toFixed(2)}`, 190, y, {align:'right'});    y += 10;
+            doc.setFontSize(8); doc.setFont(undefined,'italic');
+            doc.text('This estimate is valid for 30 days from the date above.', 105, y, {align:'center'});
+
             doc.save(`Mitigation_Estimate_${docNumber}.pdf`);
-            showToast('PDF downloaded!');
-        }
-
-        function generateWorkOrderPDF(doc, projectName, customerName, projectNotes, today, subtotal, payoutPercent, workOrderTotal) {
-            const docNumber = Math.floor(Math.random() * 90000) + 10000;
-            let yPos = 20;
-            
-            // Add logo if available with more space
-            if (companySettings.logo) {
-                try {
-                    doc.addImage(companySettings.logo, 'PNG', 20, yPos, 150, 20);
-                    yPos += 25;
-                } catch (e) {
-                    console.log('Logo could not be added to PDF');
-                }
-            }
-            
-            // Company info header
-            if (companySettings.companyName) {
-                doc.setFontSize(10);
-                doc.setFont(undefined, 'bold');
-                doc.text(companySettings.companyName, 20, yPos);
-                yPos += 5;
-            }
-            if (companySettings.companyAddress) {
-                doc.setFontSize(9);
-                doc.setFont(undefined, 'normal');
-                doc.text(companySettings.companyAddress, 20, yPos);
-                yPos += 4;
-            }
-            if (companySettings.companyPhone) {
-                doc.text(`Phone: ${companySettings.companyPhone}`, 20, yPos);
-                yPos += 8;
-            } else if (companySettings.companyName) {
-                yPos += 5;
-            }
-            
-            // Header
-            doc.setFontSize(20);
-            doc.setFont(undefined, 'bold');
-            doc.text('WORK ORDER', 105, yPos, { align: 'center' });
-            
-            yPos += 10;
-            doc.setFontSize(12);
-            doc.text(`No. ${docNumber}`, 105, yPos, { align: 'center' });
-            
-            yPos += 15;
-            doc.setFontSize(10);
-            doc.setFont(undefined, 'normal');
-            doc.text(`Date: ${today}`, 20, yPos);
-            yPos += 7;
-            doc.text(`Project: ${projectName}`, 20, yPos);
-            yPos += 7;
-            doc.text(`Customer: ${customerName}`, 20, yPos);
-            
-            if (companySettings.pmName) {
-                yPos += 7;
-                doc.text(`Project Manager: ${companySettings.pmName}`, 20, yPos);
-            }
-            if (companySettings.pmPhone) {
-                yPos += 7;
-                doc.text(`PM Phone: ${companySettings.pmPhone}`, 20, yPos);
-            }
-            if (companySettings.pmEmail) {
-                yPos += 7;
-                doc.text(`PM Email: ${companySettings.pmEmail}`, 20, yPos);
-            }
-            
-            yPos += 15;
-            
-            // Scope of Work
-            doc.setFont(undefined, 'bold');
-            doc.setFillColor(212, 175, 55);
-            doc.rect(20, yPos - 5, 170, 8, 'F');
-            doc.text('SCOPE OF WORK', 105, yPos, { align: 'center' });
-            
-            yPos += 10;
-            doc.setFont(undefined, 'normal');
-            
-            lineItems.forEach(item => {
-                if (yPos > 250) {
-                    doc.addPage();
-                    yPos = 20;
-                }
-                
-                doc.setFont(undefined, 'bold');
-                doc.text(`${item.name} - ${item.quantity.toFixed(2)} ${item.unit}`, 20, yPos);
-                yPos += 8;
-                doc.setFontSize(10);
-            });
-            
-            if (projectNotes) {
-                yPos += 5;
-                if (yPos > 240) {
-                    doc.addPage();
-                    yPos = 20;
-                }
-                
-                doc.setFont(undefined, 'bold');
-                doc.setFillColor(212, 175, 55);
-                doc.rect(20, yPos - 5, 170, 8, 'F');
-                doc.text('NOTES', 105, yPos, { align: 'center' });
-                
-                yPos += 10;
-                doc.setFont(undefined, 'normal');
-                doc.setFontSize(9);
-                const splitNotes = doc.splitTextToSize(projectNotes, 170);
-                doc.text(splitNotes, 20, yPos);
-                yPos += (splitNotes.length * 5) + 10;
-                doc.setFontSize(10);
-            }
-            
-            // Total amount due
-            if (yPos > 230) {
-                doc.addPage();
-                yPos = 20;
-            }
-            
-            yPos += 15;
-            doc.setFont(undefined, 'bold');
-            doc.setFontSize(12);
-            doc.setFillColor(0, 0, 0);
-            doc.rect(20, yPos - 5, 170, 10, 'F');
-            doc.setTextColor(255, 255, 255);
-            doc.text(`TOTAL AMOUNT DUE: $${workOrderTotal.toFixed(2)}`, 105, yPos + 2, { align: 'center' });
-            doc.setTextColor(0, 0, 0);
-            
-            yPos += 20;
-            
-            // Signature line
-            doc.setFont(undefined, 'normal');
-            doc.setFontSize(9);
-            doc.line(20, yPos, 90, yPos);
-            yPos += 5;
-            doc.text('Subcontractor Signature', 20, yPos);
-            
-            yPos -= 5;
-            doc.line(120, yPos, 190, yPos);
-            yPos += 5;
-            doc.text('Date', 120, yPos);
-            
-            doc.save(`Work_Order_${docNumber}.pdf`);
-            showToast('PDF downloaded!');
-        }
-
-        function generateChangeOrderPDF(doc, projectName, customerName, projectNotes, today, subtotal, overheadPercent, profitPercent, overheadAmount, profitAmount, customerTotal) {
-            const docNumber = Math.floor(Math.random() * 90000) + 10000;
-            let yPos = 20;
-            const todayObj = new Date();
-            const month = todayObj.toLocaleString('default', { month: 'long' });
-            const year = todayObj.getFullYear();
-            
-            // Add logo if available with more space
-            if (companySettings.logo) {
-                try {
-                    doc.addImage(companySettings.logo, 'PNG', 20, yPos, 150, 20);
-                    yPos += 25;
-                } catch (e) {
-                    console.log('Logo could not be added to PDF');
-                }
-            }
-            
-            // Company info header
-            if (companySettings.companyName) {
-                doc.setFontSize(10);
-                doc.setFont(undefined, 'bold');
-                doc.text(companySettings.companyName, 20, yPos);
-                yPos += 5;
-            }
-            if (companySettings.companyAddress) {
-                doc.setFontSize(9);
-                doc.setFont(undefined, 'normal');
-                doc.text(companySettings.companyAddress, 20, yPos);
-                yPos += 4;
-            }
-            if (companySettings.companyPhone) {
-                doc.text(`Phone: ${companySettings.companyPhone}`, 20, yPos);
-                yPos += 8;
-            } else if (companySettings.companyName) {
-                yPos += 5;
-            }
-            
-            // Header
-            doc.setFontSize(20);
-            doc.setFont(undefined, 'bold');
-            doc.text('CHANGE ORDER', 105, yPos, { align: 'center' });
-            
-            yPos += 10;
-            doc.setFontSize(12);
-            doc.text(`No. ${docNumber}`, 105, yPos, { align: 'center' });
-            
-            yPos += 15;
-            doc.setFontSize(9);
-            doc.setFont(undefined, 'normal');
-            const introText = 'The undersigned Owner(s) hereby enters into an agreement with the Contractor to change the previously agreed to Scope of Work being done under contract of the original work authorization, dated ' + today + ' as follows:';
-            const splitIntro = doc.splitTextToSize(introText, 170);
-            doc.text(splitIntro, 20, yPos);
-            yPos += (splitIntro.length * 5) + 8;
-            
-            doc.setFontSize(10);
-            doc.setFont(undefined, 'bold');
-            doc.text(`PROJECT: ${projectName}`, 20, yPos);
-            yPos += 6;
-            doc.text(`CUSTOMER: ${customerName}`, 20, yPos);
-            
-            if (companySettings.pmName) {
-                yPos += 6;
-                doc.setFont(undefined, 'normal');
-                doc.text(`Project Manager: ${companySettings.pmName}`, 20, yPos);
-            }
-            if (companySettings.pmPhone) {
-                yPos += 6;
-                doc.text(`PM Phone: ${companySettings.pmPhone}`, 20, yPos);
-            }
-            
-            yPos += 12;
-            
-            // Scope of Work Changes
-            doc.setFont(undefined, 'bold');
-            doc.setFillColor(212, 175, 55);
-            doc.rect(20, yPos - 5, 170, 8, 'F');
-            doc.text('SCOPE OF WORK CHANGES', 105, yPos, { align: 'center' });
-            
-            yPos += 10;
-            doc.setFont(undefined, 'normal');
-            doc.setFontSize(9);
-            
-            lineItems.forEach((item, index) => {
-                if (yPos > 250) {
-                    doc.addPage();
-                    yPos = 20;
-                }
-                
-                const lineText = `${index + 1}. ${item.name} - ${item.quantity.toFixed(2)} ${item.unit} @ $${item.unitPrice.toFixed(2)}/${item.unit} = $${item.total.toFixed(2)}`;
-                const splitLine = doc.splitTextToSize(lineText, 170);
-                doc.text(splitLine, 20, yPos);
-                yPos += (splitLine.length * 5) + 3;
-            });
-            
-            if (projectNotes) {
-                yPos += 8;
-                if (yPos > 240) {
-                    doc.addPage();
-                    yPos = 20;
-                }
-                
-                doc.setFont(undefined, 'bold');
-                doc.text('ADDITIONAL NOTES:', 20, yPos);
-                yPos += 6;
-                doc.setFont(undefined, 'normal');
-                const splitNotes = doc.splitTextToSize(projectNotes, 170);
-                doc.text(splitNotes, 20, yPos);
-                yPos += (splitNotes.length * 5) + 8;
-            }
-            
-            // Terms
-            if (yPos > 200) {
-                doc.addPage();
-                yPos = 20;
-            }
-            
-            yPos += 10;
-            doc.setFontSize(8);
-            const termsText = 'All of the terms of the original work authorization shall apply to this Change Order, unless otherwise stipulated in writing and agreed to by both parties.';
-            const splitTerms = doc.splitTextToSize(termsText, 170);
-            doc.text(splitTerms, 20, yPos);
-            yPos += (splitTerms.length * 4) + 8;
-            
-            doc.setFontSize(10);
-            doc.setFont(undefined, 'bold');
-            doc.text('The total cost for the above described Scope of Work is:', 20, yPos);
-            yPos += 8;
-            
-            doc.setFont(undefined, 'normal');
-            doc.text('Materials & Labor Subtotal', 20, yPos);
-            doc.text(`$${subtotal.toFixed(2)}`, 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.text(`Overhead (${overheadPercent.toFixed(1)}%)`, 20, yPos);
-            doc.text(`$${overheadAmount.toFixed(2)}`, 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.text(`Profit (${profitPercent.toFixed(1)}%)`, 20, yPos);
-            doc.text(`$${profitAmount.toFixed(2)}`, 190, yPos, { align: 'right' });
-            yPos += 2;
-            doc.line(140, yPos, 190, yPos);
-            yPos += 6;
-            doc.setFont(undefined, 'bold');
-            doc.text('Add to original contract amount', 20, yPos);
-            doc.text(`$${customerTotal.toFixed(2)}`, 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.setFont(undefined, 'normal');
-            doc.text('Deduct from original contract amount', 20, yPos);
-            doc.text('$__________', 190, yPos, { align: 'right' });
-            
-            yPos += 10;
-            doc.setFontSize(8);
-            const paymentText = 'If the above sum is an additional charge, it is due and payable upon completion of the Scope of Work described above. If the above sum is a credit, it shall be deducted from the final contract payment or from the insurance payment, whichever the case may be.';
-            const splitPayment = doc.splitTextToSize(paymentText, 170);
-            doc.text(splitPayment, 20, yPos);
-            yPos += (splitPayment.length * 4) + 10;
-            
-            // Job Recap
-            if (yPos > 200) {
-                doc.addPage();
-                yPos = 20;
-            }
-            
-            doc.setFontSize(10);
-            doc.setFont(undefined, 'bold');
-            doc.setFillColor(212, 175, 55);
-            doc.rect(20, yPos - 5, 170, 8, 'F');
-            doc.text('JOB RECAP', 105, yPos, { align: 'center' });
-            
-            yPos += 10;
-            doc.setFont(undefined, 'normal');
-            doc.text('Original Contract Amount', 20, yPos);
-            doc.text('$__________', 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.text('Previous Change Orders (+)', 20, yPos);
-            doc.text('$__________', 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.text('Previous Change Orders (-)', 20, yPos);
-            doc.text('$__________', 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.setFont(undefined, 'bold');
-            doc.text('This Change Order', 20, yPos);
-            doc.text(`$${customerTotal.toFixed(2)}`, 190, yPos, { align: 'right' });
-            yPos += 6;
-            doc.text('Current Contract Total', 20, yPos);
-            doc.text('$__________', 190, yPos, { align: 'right' });
-            
-            // Signature
-            yPos += 15;
-            doc.setFontSize(9);
-            doc.setFont(undefined, 'normal');
-            doc.text(`Signed and agreed to this _____ day of ${month}, ${year}`, 20, yPos);
-            
-            yPos += 15;
-            doc.line(20, yPos, 90, yPos);
-            yPos += 5;
-            doc.text('Owner Signature', 20, yPos);
-            
-            yPos += 10;
-            doc.line(20, yPos, 90, yPos);
-            yPos += 5;
-            doc.text('Print Name of Owner', 20, yPos);
-            
-            yPos -= 20;
-            doc.line(120, yPos, 190, yPos);
-            yPos += 5;
-            doc.text('Contractor Representative', 120, yPos);
-            if (companySettings.pmName) {
-                yPos += 5;
-                doc.setFont(undefined, 'italic');
-                doc.text(companySettings.pmName, 120, yPos);
-                doc.setFont(undefined, 'normal');
-                yPos += 5;
-            } else {
-                yPos += 10;
-            }
-            doc.line(120, yPos, 190, yPos);
-            yPos += 5;
-            doc.text('Print Name of Representative', 120, yPos);
-            
-            doc.save(`Change_Order_${docNumber}.pdf`);
             showToast('PDF downloaded!');
         }
 
@@ -2248,12 +1180,10 @@ Contractor Representative: _____________________________
             const toast = document.getElementById('toast');
             toast.textContent = message;
             toast.classList.add('show');
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 2000);
+            setTimeout(() => toast.classList.remove('show'), 2000);
         }
 
-        // Initialize
+        // ─── INIT ────────────────────────────────────────────────────────────────────
         loadData();
     </script>
 </body>
